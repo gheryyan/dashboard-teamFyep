@@ -3,6 +3,10 @@
     {
       "source": "/api/:path*",
       "destination": "https://webgws-two.my.id/api/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
