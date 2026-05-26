@@ -1,11 +1,9 @@
-// src/pages/ReportsPage.jsx
 import {
   BarChart, Bar, LineChart, Line,
   XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend,
 } from "recharts";
 import MetricCard from "../components/ui/MetricCard";
 
-// Data chart mingguan
 const weeklyAlerts = [
   { day: "Sen", critical: 8,  high: 14, medium: 22 },
   { day: "Sel", critical: 5,  high: 10, medium: 18 },

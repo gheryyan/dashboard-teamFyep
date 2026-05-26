@@ -29,7 +29,6 @@ const useAlerts = (params = {}) => {
         }
         result = result.data ?? result;
       }
-      // Satu level lagi kalau masih object
       if (result && typeof result === "object" && !Array.isArray(result)) {
         result = result.data ?? result;
       }

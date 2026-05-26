@@ -1,6 +1,3 @@
-// src/services/api.js
-// Satu file ini = semua komunikasi ke Laravel backend
-// Kalau URL API berubah, cukup edit VITE_API_BASE_URL di .env
 
 import axios from "axios";
 

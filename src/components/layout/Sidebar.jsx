@@ -46,7 +46,7 @@ const Sidebar = ({ collapsed, setCollapsed }) => {
           justifyContent: "center",
           fontSize: 14,
           fontWeight: 700,
-          color: "#29b6f6", // Teks logo menggunakan warna background sidebar
+          color: "#29b6f6", 
           flexShrink: 0,
           boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
         }}>
@@ -73,7 +73,6 @@ const Sidebar = ({ collapsed, setCollapsed }) => {
               padding: "12px 20px",
               justifyContent: collapsed ? "center" : "flex-start",
               textDecoration: "none",
-              // Menggunakan background putih transparan untuk menu aktif agar menyatu dengan biru
               background: isActive ? "rgba(255, 255, 255, 0.18)" : "transparent",
               borderLeft: isActive ? "4px solid #ffffff" : "4px solid transparent",
               transition: "all 0.2s ease",

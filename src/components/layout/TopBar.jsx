@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
 
-// 🌟 Menerima prop isSidebarCollapsed dari MainLayout
 const Topbar = ({ alertCount = 0, isSidebarCollapsed = false }) => {
   const [now, setNow] = useState(new Date());
   const [showMenu, setShowMenu] = useState(false);

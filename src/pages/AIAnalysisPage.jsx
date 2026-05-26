@@ -1,4 +1,3 @@
-// src/pages/AIAnalysisPage.jsx
 import { useState } from "react";
 import MetricCard from "../components/ui/MetricCard";
 import SeverityBadge from "../components/ui/SeverityBadge";
@@ -30,7 +29,7 @@ const AIAnalysisPage = () => {
     setAnalyzing(true);
     setResult(null);
     setError(null);
-
+    //sementara aja pakai antropic langsung di frontend, nanti tinggal dipindah ke backend biar lebih aman dan gak kena CORS
     try {
       const response = await fetch("https://api.anthropic.com/v1/messages", {
         method: "POST",

@@ -4,7 +4,6 @@ import { useAuth } from "../../context/AuthContext";
 const PrivateRoute = ({ allowedRoles }) => {
   const { user, loading } = useAuth();
  
-  // Masih cek token — tampilkan loading dulu, jangan langsung redirect
   if (loading) {
     return (
       <div style={{
@@ -25,15 +24,13 @@ const PrivateRoute = ({ allowedRoles }) => {
     );
   }
  
-  // Belum login → ke halaman login
+  //kalau belum login  ke halaman login
   if (!user) return <Navigate to="/login" replace />;
  
-  // Role tidak diizinkan → ke halaman utama
   if (allowedRoles && !allowedRoles.includes(user.role)) {
     return <Navigate to="/" replace />;
   }
  
-  // Lulus semua pengecekan → render halaman
   return <Outlet />;
 };
  

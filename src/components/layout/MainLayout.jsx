@@ -63,8 +63,7 @@ const MainLayout = () => {
             flexDirection: "column",
             minHeight: "100%",
           }}>
-            {/* 🌟 KUNCI PERUBAHAN: Teks judul juga berubah warna jadi putih jika Topbar-nya nanti biru? 
-                Biar teks konten tetap hitam, style di sini dibiarkan default */}
+
             <div style={{ marginBottom: 20 }}>
               <h1 style={{ fontSize: 20, fontWeight: 600, margin: "0 0 4px" }}>{meta.title}</h1>
               <p style={{ fontSize: 13, color: "#888780", margin: 0 }}>{meta.sub}</p>

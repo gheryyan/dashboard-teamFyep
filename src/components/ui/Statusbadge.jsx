@@ -1,4 +1,3 @@
-// src/components/ui/StatusBadge.jsx
 
 const StatusBadge = ({ status }) => {
   const map = {

@@ -1,4 +1,3 @@
-// src/components/ui/SeverityBadge.jsx
 
 const SeverityBadge = ({ level }) => {
   const styles = {

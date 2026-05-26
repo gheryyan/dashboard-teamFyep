@@ -13,13 +13,9 @@ const useEndpoints = () => {
     try {
       const res = await getEndpoints();
 
-      // Debug: lihat bentuk asli response Laravel di console
       console.log("[useEndpoints] raw response:", res.data);
 
-      // Handle semua kemungkinan struktur response Laravel:
-      // 1. res.data = [...] langsung array
-      // 2. res.data = { data: [...] } dari paginate() atau resource
-      // 3. res.data = { data: { data: [...] } } nested
+
       let result = res.data;
       if (result && typeof result === "object" && !Array.isArray(result)) {
         result = result.data ?? result;
@@ -28,7 +24,6 @@ const useEndpoints = () => {
         result = result.data ?? result;
       }
 
-      // Pastikan selalu array sebelum di-set
       setEndpoints(Array.isArray(result) ? result : []);
     } catch (err) {
       console.error("[useEndpoints] error:", err);
