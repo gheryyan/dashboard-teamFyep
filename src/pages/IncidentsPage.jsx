@@ -2,7 +2,7 @@
 import { useState } from "react";
 import MetricCard from "../components/ui/MetricCard";
 import SeverityBadge from "../components/ui/SeverityBadge";
-import StatusBadge from "../components/ui/StatusBadge";
+import StatusBadge from "../components/ui/Statusbadge";
 import { incidents } from "../MockData";
 
 const IncidentsPage = () => {

@@ -3,7 +3,7 @@ import { useState } from "react";
 import useAlerts from "../hooks/useAlerts";
 import SeverityBadge from "../components/ui/SeverityBadge";
 import StatusBadge from "../components/ui/StatusBadge";
-import AIScoreBar from "../components/ui/AIScoreBar";
+import AIScoreBar from "../components/ui/AiScorebar";
 import { LoadingState, ErrorState } from "../components/ui/PageState";
 
 const FILTERS = ["all", "critical", "high", "medium", "low"];

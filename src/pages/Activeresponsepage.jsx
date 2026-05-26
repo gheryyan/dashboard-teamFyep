@@ -1,6 +1,6 @@
 import { useState } from "react";
 import MetricCard from "../components/ui/MetricCard";
-import StatusBadge from "../components/ui/StatusBadge";
+import StatusBadge from "../components/ui/Statusbadge";
 import { activeResponses } from "../MockData";
 
 //mock  data

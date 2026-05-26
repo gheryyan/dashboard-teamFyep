@@ -4,7 +4,7 @@ import {
 } from "recharts";
 import MetricCard from "../components/ui/MetricCard";
 import SeverityBadge from "../components/ui/SeverityBadge";
-import StatusBadge from "../components/ui/StatusBadge";
+import StatusBadge from "../components/ui/Statusbadge";
 import {
   alertsTimelineData,
   topAttackers,
