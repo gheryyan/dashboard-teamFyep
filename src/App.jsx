@@ -7,7 +7,7 @@ import LoginPage           from "./components/auth/LoginPage";
 import DashboardPage       from "./pages/DashboardPages";
 import AlertsPage          from "./pages/AlertPages";
 import IncidentsPage       from "./pages/IncidentsPage";
-import ActiveResponsePage  from "./pages/ActiveResponsePage";
+import ActiveResponsePage  from "./pages/Activeresponsepage";
 import AIAnalysisPage      from "./pages/AIAnalysisPage";
 import EndpointsPage       from "./pages/EndpointsPage";
 import ReportsPage         from "./pages/ReportsPage";
