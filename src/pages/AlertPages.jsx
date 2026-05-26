@@ -2,7 +2,7 @@
 import { useState } from "react";
 import useAlerts from "../hooks/useAlerts";
 import SeverityBadge from "../components/ui/SeverityBadge";
-import StatusBadge from "../components/ui/StatusBadge";
+import StatusBadge from "../components/ui/Statusbadge";
 import AIScoreBar from "../components/ui/AiScorebar";
 import { LoadingState, ErrorState } from "../components/ui/PageState";
 
